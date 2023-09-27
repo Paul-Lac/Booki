@@ -1,0 +1,28 @@
+footer {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sub-footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.sub-footer h2,
+.sub-footer a {
+    padding-bottom: 0.5rem;
+}
+
+.sub-footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:768px) {
+    footer {
+        flex-direction: column;
+    }
+}

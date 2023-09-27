@@ -1,0 +1,54 @@
+/* NAVBAR */
+#logo {
+    height: 29px;
+    margin-right: auto;
+    padding: 0 3rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.sub-nav {
+    display: flex;
+}
+
+.sub-nav a {
+    padding: 2rem;
+    border-top: 3px solid transparent;
+    width: 162px;
+}
+ 
+.sub-nav a:hover {
+    color: #0065FC; 
+    border-top: 3px solid blue;
+}
+
+@media (max-width:768px) {
+    nav {
+        margin-top: 2rem;
+    }
+    
+    nav img {
+        margin-left: auto;
+    }
+
+    .sub-nav {
+        flex-basis: 100%;
+    }
+
+    .sub-nav a {
+        border-bottom: 2px solid #F2F2F2;
+        width: 50%;
+        text-align: center;
+    }
+
+    .sub-nav a:hover {
+        color: #0065FC; 
+        border-top: hidden;
+        border-bottom-color: #0065FC;
+    }
+}

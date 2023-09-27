@@ -1,0 +1,18 @@
+/* INFO RESULTS */
+.info-message {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.info-message i {
+    color:#0065FC;
+    border: 2px solid #D9D9D9;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

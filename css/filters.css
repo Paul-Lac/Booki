@@ -1,0 +1,53 @@
+/* FILTERS */
+.filters-container, 
+.first-row,
+.second-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter-title {
+    margin-right: 40px;
+    margin-bottom: 1.5rem;
+}
+
+.filter-button {
+    border:3px solid #D9D9D9;
+    border-radius: 30px;
+    padding: 12px;
+    margin-right: 40px;
+    margin-bottom: 1.5rem;
+    transition: all 100ms;
+}
+
+.filter-button:hover {
+    background-color: #DEEBFF;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.filter-button i {
+    color:#0065FC;
+}
+
+.filters-container p {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .filter-title {
+        width: 100%;
+    }
+
+    .filter-button {
+        width: 160px;
+    }
+
+    .filter-button p {
+        font-size: 11px;
+    }
+}

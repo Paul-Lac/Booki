@@ -1,0 +1,14 @@
+/* MAIN */
+main {
+    padding: 0 3rem;
+}
+
+/* HEADING */
+.heading h1 {
+    padding-top: 0.75rem;
+    margin-bottom: 1rem;  
+}
+
+.heading p {
+    margin-bottom: 1.5rem;
+}
