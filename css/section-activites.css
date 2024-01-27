@@ -1,85 +1,85 @@
 /* SECTION ACTIVITES */
 .activities h1 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .container-card-activities {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 20rem));
-    grid-template-rows: repeat(5, 1fr);
-    gap: 2rem;
-    justify-content: center;
-    margin-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 20rem));
+  grid-template-rows: repeat(5, 1fr);
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .card-activities {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 1rem;
-    display: flex;
-    background-size: cover;
-    background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1rem;
+  display: flex;
+  background-size: cover;
+  background-position: center;
 }
 
 .card-activities h2 {
-    background-color: white;
-    margin-top: auto;
-    padding: 1rem;
-    width: 100%;
-    border-radius: 0 0 1rem 1rem;
+  background-color: white;
+  margin-top: auto;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 0 0 1rem 1rem;
 }
 
 .big {
-    height: 30rem;
+  height: 30rem;
 }
 
 .card-activities.card1 {
-    grid-column: 1 / 2;
-    grid-row: 1 / 6;
-    background-image: url("../Images Booki/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  grid-column: 1 / 2;
+  grid-row: 1 / 6;
+  background-image: url("../Images_Booki/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
 }
 
 .card-activities.card2 {
-    grid-column: 2 / 3;
-    grid-row: 1 / 4;
-    background-image: url("../Images Booki/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+  grid-column: 2 / 3;
+  grid-row: 1 / 4;
+  background-image: url("../Images_Booki/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
 }
 
 .card-activities.card3 {
-    grid-column: 2 / 3;
-    grid-row: 4 / 6;
-    background-image: url("https://booki.mathisbarre.com/img/activity/small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+  grid-column: 2 / 3;
+  grid-row: 4 / 6;
+  background-image: url("../Images_Booki/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
 }
 
 .card-activities.card4 {
-    grid-column: 3 / 4;
-    grid-row: 1 / 6;
-    background-image: url("../Images Booki/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  grid-column: 3 / 4;
+  grid-row: 1 / 6;
+  background-image: url("../Images_Booki/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
 }
 
 .card-activities.card5 {
-    grid-column: 4 / 5;
-    grid-row: 1 / 3;
-    background-image: url("../Images Booki/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+  grid-column: 4 / 5;
+  grid-row: 1 / 3;
+  background-image: url("../Images_Booki/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
 }
 .card-activities.card6 {
-    grid-column: 4 / 5;
-    grid-row: 3 / 6;
-    background-image: url("https://booki.mathisbarre.com/img/activity/small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+  grid-column: 4 / 5;
+  grid-row: 3 / 6;
+  background-image: url("../Images_Booki/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
 }
 
-@media screen and (max-width:992px) {
-    .container-card-activities {
-        grid-template-rows: repeat(auto-fit, 15rem);
-    }
+@media screen and (max-width: 992px) {
+  .container-card-activities {
+    grid-template-rows: repeat(auto-fit, 15rem);
+  }
 
-    .card-activities.card1,
-    .card-activities.card2,
-    .card-activities.card3,
-    .card-activities.card4,
-    .card-activities.card5,
-    .card-activities.card6 {
-        grid-column: span 1;
-        grid-row: span 1;
-        height: 15rem;
-    }
+  .card-activities.card1,
+  .card-activities.card2,
+  .card-activities.card3,
+  .card-activities.card4,
+  .card-activities.card5,
+  .card-activities.card6 {
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 15rem;
+  }
 }
