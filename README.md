@@ -6,3 +6,6 @@ This project was created as part of my autonomous learning journey in web develo
 ## TECHNOLOGIES USED
 - HTML5
 - CSS3
+  
+## ACCESS TO THE SITE
+The deployed page is accessible here: https://paul-lac.github.io/Booki/ 
